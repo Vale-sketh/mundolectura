@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #FFF8EC;
+    color: #4A3A2A;
+}
+
+header {
+    background: linear-gradient(135deg, #6D4C41, #8D6E63);
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 8px 0 0 0;
+    font-style: italic;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #4E342E;
+    text-align: center;
+    padding: 14px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFCC80;
+    color: #4E342E;
+}
+
+.contenedor {
+    max-width: 780px;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.contenedor h2 {
+    color: #6D4C41;
+    font-size: 28px;
+    border-bottom: 3px solid #FFCC80;
+    padding-bottom: 8px;
+}
+
+.contenedor p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.tarjeta {
+    background: #FFF3E0;
+    border-left: 6px solid #FF9800;
+    padding: 14px 16px;
+    border-radius: 12px;
+    margin: 12px 0;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateX(5px);
+    background: #FFE0B2;
+}
+
+.frase {
+    background: #EFEBE9;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #5D4037;
+}
+
+footer {
+    background-color: #4E342E;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 40px;
+    font-size: 15px;
+}

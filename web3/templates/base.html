@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Mundo de Lectura</title>
+    <link rel="stylesheet" href="{% static 'estilo.css' %}">
+</head>
+<body>
+
+    <h1>📚 Mi Mundo de Lectura</h1>
+    <p>Mi pasatiempo favorito es leer</p>
+
+    <nav>
+        <a href="/">Inicio</a> |
+        <a href="/mislibros/">Mis Libros</a> |
+        <a href="/generos/">Géneros</a> |
+        <a href="/recomendados/">Recomendados</a>
+    </nav>
+
+    <hr>
+
+    {% block contenido %}
+    {% endblock %}
+
+    <hr>
+
+    <footer>
+        <p>Hecho por Esme - Mi pasatiempo favorito es leer y tomar café</p>
+    </footer>
+
+</body>
+</html>
